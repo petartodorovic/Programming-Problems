@@ -1,0 +1,12 @@
+[project]
+name = "mix_server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.10.1",
+    "mcp[cli]>=1.10.1",
+    "pandas>=2.3.0",
+    "pyarrow>=20.0.0",
+]
